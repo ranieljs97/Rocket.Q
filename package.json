@@ -1,0 +1,27 @@
+{
+  "name": "rocket.q",
+  "version": "1.0.0",
+  "description": "Projeto desenolvido para gereciar perguntas anonimas. ",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ." 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranieljs97/Rocket.Q.git"
+  },
+  "keywords": [],
+  "author": "Raniel Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranieljs97/Rocket.Q/issues"
+  },
+  "homepage": "https://github.com/ranieljs97/Rocket.Q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
