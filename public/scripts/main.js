@@ -28,7 +28,7 @@ checkButtons.forEach(button => {
     const questionId = event.target.dataset.id
 
     // armazena na URL
-    form.setAttribute('action', `/room/${roomId}/${questionId}/${slug}`)
+    form.setAttribute('action', `/question/${roomId}/${questionId}/${slug}`)
 
     // abrir modal
     modal.open()
