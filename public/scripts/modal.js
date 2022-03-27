@@ -7,7 +7,7 @@ export default function Modal() {
     document.querySelector('.modal-wrapper').classList.add('active')
   }
   function close() {
-    document.querySelector('.modal-wrapper'.classList.remove('active'))
+    document.querySelector('.modal-wrapper').classList.remove('active')
   }
 
   return {
